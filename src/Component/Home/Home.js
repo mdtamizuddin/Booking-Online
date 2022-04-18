@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import ServiceCard from './ServiceCard';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -66,6 +67,9 @@ const Home = () => {
           desc={'To keep the body in good health is a duty… otherwise we shall not be able to keep our mind strong and clear'}
           />
         </div>
+      </section>
+      <section className='contact-with-me'>
+        <Link to='/'>Contact Us</Link>
       </section>
     </div>
   )
