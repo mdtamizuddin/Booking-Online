@@ -7,17 +7,9 @@
     display: flex;
     
 }
-.user .left-side{
-    width: 25%;
-    background-image: url(../images//user-page.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 90%;
-    height: 100%;
-    background-color: var(--dark-blue);
-}
+
 .user .right-side{
-    width: 75%;
+    width: 100%;
     height: 100%;
     background-color: #23394a;
     display: flex;
@@ -25,7 +17,7 @@
     align-items: center;
 }
 .user .right-side .content{
-    width: 450px;
+    width: 500px;
     color: white;
 }
 .content h2{

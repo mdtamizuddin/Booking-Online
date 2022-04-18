@@ -19,20 +19,24 @@ const Checkout = () => {
         <h1>Checkout</h1>
         <form onSubmit={submitForm}>
           <div className="mb-3">
-            <label htmlFor="exampleInputEmail1" className="form-label">Name</label>
-            <input type="text" className="form-control" aria-describedby="emailHelp" required />
+            <label htmlFor="exampleInputEmail1" className="form-label">First Name</label>
+            <input type="text" className="form-control"  required />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="exampleInputEmail1" className="form-label">Last Name</label>
+            <input type="text" className="form-control" required />
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">Phone Number</label>
-            <input type="text" className="form-control" aria-describedby="emailHelp" required />
+            <input type="text" className="form-control"  required />
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">Email</label>
-            <input type="email" className="form-control" aria-describedby="emailHelp" required />
+            <input type="email" className="form-control"  required />
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">Adress</label>
-            <input type="text" className="form-control" aria-describedby="emailHelp" required />
+            <input type="text" className="form-control"  required />
           </div>
           <button type='submit' className="btn btn-primary">Confirm</button>
         </form>

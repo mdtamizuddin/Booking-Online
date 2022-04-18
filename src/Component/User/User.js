@@ -7,8 +7,6 @@ const User = () => {
 
     return (
         <div className='user'>
-            <div className='left-side'>
-            </div>
             <div className='right-side'>
                 <div className='content'>
                     <h2>Get more things done with Loggin platform.
