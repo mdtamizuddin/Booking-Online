@@ -2,9 +2,13 @@
     --dark-blue: #00235A;
     --red: #C8242F;
   }
+  .logo a{
+      text-decoration: none;
+  }
 .logo-my{
     color: white;
     font-size: 40px;
+    
     font-weight: 600;
 }
 .logo svg {
@@ -12,7 +16,6 @@
     cursor: pointer;
     display: none;
     color: whitesmoke;
-
 }
 .dont-show{
     transition: all 0.5s ease-in-out;

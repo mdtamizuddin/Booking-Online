@@ -6,9 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import ServiceCard from './ServiceCard';
-import Dumbbelling from '../images/dumbbelling.webp'
-import fatBurning from '../images/fat-burning.jpg'
-import woman from '../images/woman.jpg'
+
 const Home = () => {
   return (
     <div className='home'>
@@ -50,20 +48,20 @@ const Home = () => {
 
         <div className='service-container container'>
           <ServiceCard 
-          image={fatBurning}
-          price={300}
+          image={'https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RyZW5ndGglMjB0cmFpbmluZ3xlbnwwfHwwfHw%3D&w=1000&q=80'}
+          price={1000}
           work={'Grid Training'}
           desc={'Training gives us an outlet for suppressed energies created by stress and thus tones the spirit just as exercise conditions the body'}
           />
           <ServiceCard 
-          image={Dumbbelling}
-          price={600}
+          image={'https://ae01.alicdn.com/kf/HTB1eB9vbVGWBuNjy0Fbq6z4sXXa9/Home-decoration-Bodybuilding-athlete-dumbbells-tattoo-Silk-Fabric-Poster-Print-YR141.jpg_Q90.jpg_.webp'}
+          price={800}
           work={'Dumbbelling'}
           desc={'If you must use dumbbells for daily training, use heavy ones with fewer repetitions rather than light bells with numerous repetitions'}
           />
           <ServiceCard 
-          image={woman}
-          price={500}
+          image={'https://www.siroko.com/blog/c/app/uploads/2021/07/fitness_21858fa8-864f-404f-9bf5-c2a7d5f72ed7-1440x900.jpg'}
+          price={580}
           work={'Cycling GYM'}
           desc={'To keep the body in good health is a duty… otherwise we shall not be able to keep our mind strong and clear'}
           />

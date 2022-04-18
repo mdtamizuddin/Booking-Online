@@ -35,8 +35,8 @@ const Navbar = () => {
                 <div className="container">
                     <div className="content">
                         <div className="logo">
-                            <Link className='btn' to='/' >
-                                <h1 className='logo-my'>Fithness</h1>
+                            <Link className='' to='/' >
+                                <h1 className='logo-my'>Fithness Zone</h1>
                             </Link>
                             <FontAwesomeIcon onClick={navHandler} icon={faBars} />
                         </div>
