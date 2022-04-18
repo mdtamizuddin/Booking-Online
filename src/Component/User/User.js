@@ -20,6 +20,7 @@ const User = () => {
                             </NavLink>
                         </div>
                    <Outlet />
+                   
                    <LoginGoogle />
                 </div>
                

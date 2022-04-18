@@ -12,6 +12,7 @@ import RequireAuth from './Component/RequireAuth';
 import Checkout from './Component/checkOut/Checkout';
 import Blogs from './Component/Blogs/Blogs';
 import About from './Component/About/About';
+import ResetPassword from './Component/User/ResetPassword';
 function App() {
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/user' element={<Navigate to="/user/login" />} />
         <Route path='/user' element={<User />}>
           <Route path='login' element={<Login />} />
+          <Route path='reset' element={<ResetPassword />} />
           <Route path='register' element={<Register />} />
         </Route>
         <Route path='checkout' element={
