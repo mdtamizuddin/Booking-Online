@@ -1,10 +1,47 @@
-# Getting Started with Create React App
+# Fithness Zone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website Create with Vanilla css [Create React App]().
 
-## Available Scripts
+## Used Dependencis
 
-In the project directory, you can run:
+- ## Firebase
+```bash
+yarn add firebase
+```
+```bash
+ npm install firebase
+```
+- ## React Router Dom
+```bash
+yarn add react-router-dom
+```
+```bash
+ npm install react-router-dom
+```
+- ## React Bootstrap
+```bash
+yarn add react-bootstrap bootstrap
+```
+```bash
+npm install react-bootstrap bootstrap
+```
+
+- ## Swiper For Slider
+```bash
+yarn add swiper
+```
+```bash
+npm install swiper
+```
+- ## React Firebase Hook
+```bash
+yarn add react-firebase-hooks
+```
+```bash
+npm i react-firebase-hooks
+```
+- ## FontAwsome 
+
 
 ### `yarn start`
 
