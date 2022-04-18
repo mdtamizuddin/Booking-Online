@@ -1,19 +1,18 @@
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDSG8sSKKQPM42_XyH_mFQXH2PlEEcQu2w",
-  authDomain: "assignment-10-84623.firebaseapp.com",
-  projectId: "assignment-10-84623",
-  storageBucket: "assignment-10-84623.appspot.com",
-  messagingSenderId: "1050382353836",
-  appId: "1:1050382353836:web:e8153a776b3eef00e96609"
+  apiKey: "AIzaSyD4CKaIh9FbEbdSrah-ORd3KphrVB0_RQw",
+  authDomain: "booking-online-a2c89.firebaseapp.com",
+  projectId: "booking-online-a2c89",
+  storageBucket: "booking-online-a2c89.appspot.com",
+  messagingSenderId: "1028316106418",
+  appId: "1:1028316106418:web:52046679ef8a9b56ee83ab",
+  measurementId: "G-0466YQEE0N"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
 export default app;

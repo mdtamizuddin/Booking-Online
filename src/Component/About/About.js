@@ -1,11 +1,11 @@
 import React from 'react'
 import './About.css'
-import about from '../images/about.png'
+// import about from '../images/about.png'
 const About = () => {
     return (
         <div className='about-page container'>
             <div>
-                <img src={about} alt="" />
+                <img src={'about'} alt="" />
             </div>
             <div className='about-right-side'>
                 <h5>Fithness Gym</h5>
