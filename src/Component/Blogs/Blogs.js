@@ -8,22 +8,17 @@ const Blogs = () => {
     
     <img className='mt-5' src={firebase} alt="" />
     <p className='mt-5'>Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more.</p>
-   <h2>other services does firebase provide other than authentication</h2>
-   <h3>
-   Parse – Open Source Backend Platform;<br/>
-Back4app – Parse Hosting Platform;<br/>
-Kinvey – Mobile Backend as a Service (mBaaS) for the Enterprise;<br/>
-Backendless – Mobile Backend and API Services Platform;<br/>
-Kuzzle – Backend for web, hybrid, or native mobile apps and IoT projects;<br/>
-Pubnub – Real-time APIs and Global Messaging;<br/>
-Kumulos – App Performance Management;<br/>
-Game Sparks – Game Backend Platform;<br/>
-Hoodie – Generic backend with a client API for Offline First applications;<br/>
-Appwrite – Open-Source backend for Flutter developers<br/>
-Deployd – Simple core library, with a modular API for your application;<br/>
-NHost – Accelerates development and provides full control;<br/>
-Amplify JS – Open-source Javascript framework;<br/>
-Heroku – Platform as a service backed by Salesforce.</h3>
+     
+   <h2 className='mt-5'>Firebase Alternatives</h2>
+   <ol>
+     <li>Parse – Open Source Backend Platform;</li>
+     <li>Back4app – Parse Hosting Platform;</li>
+     <li>Kinvey – Mobile Backend as a Service (mBaaS) for the Enterprise;</li>
+     <li>Backendless – Mobile Backend and API Services Platform;</li>
+     <li>Kuzzle – Backend for web, hybrid, or native mobile apps and IoT projects;</li>
+     <li>Heroku – Platform as a service backed by Salesforce.</li>
+     <li>Deployd – Simple core library, with a modular API for your application;</li>
+   </ol>
     </div>
   )
 }
