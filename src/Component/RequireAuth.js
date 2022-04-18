@@ -7,9 +7,10 @@ import app from '../firebase.init';
 
 const RequireAuth = ({ children }) => {
   const auth = getAuth(app);
-  const [user, loading, error] = useAuthState(auth);
+  const [user, loading, ] = useAuthState(auth);
 
   const location = useLocation()
+  
   if (loading) {
     return <div className='spinner-container'>
       <Spinner className='loading-spinner' animation="border" role="status">

@@ -1,18 +1,19 @@
 import { getAuth , GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import React, { useState } from 'react'
-import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import React from 'react'
+
+import { useLocation, useNavigate } from 'react-router-dom';
 import app from '../../firebase.init';
 
 const LoginGoogle = () => {
     const auth = getAuth(app)
     const provider = new GoogleAuthProvider();
-    const [merror, setErro] = useState('')
-    const [signInWithGoogle, error] = useSignInWithGoogle(auth);
-
+    const location = useLocation()
+    const navigate = useNavigate()
+    const from = location?.state?.from?.pathname || '/'
     const SigninGoogle = () => {
         signInWithPopup(auth, provider)
         .then((result) => {
-        
+            navigate(from , {replace : true})
         }).catch((error) => {
          
         });
@@ -21,7 +22,7 @@ const LoginGoogle = () => {
         <div>
             <h3> or </h3>
             <button onClick={SigninGoogle} className="login-google">Google</button>
-            <p>{merror}</p>
+            
         </div>
     )
 }

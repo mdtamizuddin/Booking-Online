@@ -92,7 +92,9 @@
 
   .service-card{
     width: 100%;
-    
+    box-shadow: 0px 0px 10px 1px rgb(214, 214, 214);
+    padding: 10px;
+    border-radius: 10px;
     
   }
   .service-card .img{
@@ -157,5 +159,18 @@
       grid-gap: 2rem;
       margin-top: 50px;
     }
-    
+    .slider h1{
+      font-size: 50px;
+      font-weight: 700;
+      color: rgb(112, 247, 235);
+    }
+    .contact-with-me{
+      width: 100%;
+      height: 200px;
+      background-image: linear-gradient(to right ,rgb(121, 7, 87) ,rgb(6, 5, 73));
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }

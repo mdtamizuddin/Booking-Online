@@ -1,7 +1,16 @@
 # Fithness Zone
 
-Website Create with Vanilla css [Create React App]().
+Website Create with Vanilla css with Come Bootstrap Classes [Create React App](https://booking-online-a2c89.web.app/home).
 
+#### process.env not working tai Direct Koreci
+
+## pages
+ 
+ - ### [Home](https://booking-online-a2c89.web.app/home)
+ - ### [Checkout](https://booking-online-a2c89.web.app/checkout)
+ - ### [About](https://booking-online-a2c89.web.app/about)
+ - ### [User](https://booking-online-a2c89.web.app/user)
+ 
 ## Used Dependencis
 
 - ## Firebase
@@ -24,6 +33,16 @@ yarn add react-bootstrap bootstrap
 ```
 ```bash
 npm install react-bootstrap bootstrap
+```
+- ## React Animate On Scroll
+```bash
+yarn add react-animate-on-scroll --save
+```
+```bash
+yarn add  animate.css
+```
+```bash
+import "animate.css/animate.min.css";
 ```
 
 - ## Swiper For Slider

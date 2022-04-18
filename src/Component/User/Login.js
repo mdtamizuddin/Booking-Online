@@ -1,5 +1,5 @@
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import { toast, ToastContainer } from 'react-toastify';
 import app from '../../firebase.init';
 
@@ -7,7 +7,7 @@ const Login = () => {
     const auth = getAuth(app)
     const emailFeild = useRef('');
     const passwordFeild = useRef('');
-
+ 
 
     const login = (e) => {
         e.preventDefault()
@@ -17,8 +17,9 @@ const Login = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 const user = result.user.email;
-                const notify = () => toast(user  + " " + "Opend Door For You")
+                const notify = () => toast(user   + "Door is Opend For You")
                 notify()
+
             })
             .catch((error) => {
                 const errorCode = error.code;
@@ -28,7 +29,7 @@ const Login = () => {
     }
 
     return (
-        <form action='submit' onSubmit={login} className='login'>
+        <form action='submit' onSubmit={login} className='login animate__animated animate__fadeInRight'>
             <input ref={emailFeild} type="email" placeholder='E-mail Adress' required />
             <input ref={passwordFeild} type="password" placeholder='Password' required />
             <button className='btn-login'>Login</button>

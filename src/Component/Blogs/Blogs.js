@@ -2,7 +2,7 @@ import React from 'react'
 import firebase from '../images/firebase.png'
 const Blogs = () => {
   return (
-    <div className='container d-flex justify-content-center flex-column '>
+    <div className='container d-flex justify-content-center flex-column animate__animated animate__fadeInUp'>
         <img className='mx-auto d-block img-fluid' src='https://www.acns.colostate.edu/media/sites/100/2021/03/Duo-Process.png' alt="" />
         <p className='mt-5'>what is the difference between authentication and authorization? Simply put, authentication is the process of verifying who someone is, whereas authorization is the process of verifying what specific applications, files, and data a user has access to. The situation is like that of an airline that needs to determine which people can come on board. The first step is to confirm the identity of a passenger to make sure they are who they say they are. Once a passenger’s identity has been determined, the second step is verifying any special services the passenger has access to, whether it’s flying first-class or visiting the VIP lounge.</p>
     

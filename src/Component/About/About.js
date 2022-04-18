@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 const About = () => {
     return (
-        <div className='about-page container'>
+        <div className='about-page container animate__animated animate__fadeInLeft'>
             <div>
                 <img src={'https://i.pinimg.com/originals/61/02/fb/6102fbf3122685f0fea18ec20b6cf515.jpg'} alt="" />
             </div>

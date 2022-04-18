@@ -7,7 +7,7 @@ const User = () => {
 
     return (
         <div className='user'>
-            <div className='right-side'>
+            <div className='right-side animate__animated animate__fadeInLeft'>
                 <div className='content'>
                     <h2>Get more things done with Loggin platform.
                     </h2>

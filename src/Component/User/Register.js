@@ -1,6 +1,6 @@
 
 import { createUserWithEmailAndPassword, getAuth, sendEmailVerification, updateProfile } from 'firebase/auth';
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import app from '../../firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -53,7 +53,7 @@ const Register = () => {
 
     return (
         <>
-            <form onSubmit={register} className='login'>
+            <form onSubmit={register} className='login animate__animated animate__fadeInUp'>
                 <input ref={nameFeild} type="text" placeholder='Name' required />
                 <input ref={emailFeild} type="email" placeholder='E-mail Adress' required />
                 <input ref={passwordFeild} type="password" placeholder='Password' required />
